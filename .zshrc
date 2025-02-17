@@ -109,3 +109,4 @@ eval "$(zoxide init zsh)"
 if [[ -z "$TMUX" ]]; then
 	tmux new -A -s work
 fi
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
