@@ -6,3 +6,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ./config/configure-ssh.sh
 rm ~/.zshrc
 stow .
+chsh -s $(which zsh)
