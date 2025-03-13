@@ -106,9 +106,9 @@ source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export PATH="$HOME/.local/bin:$PATH"
 eval "$(zoxide init zsh)"
-if [[ -z "$TMUX" ]]; then
-	tmux new -A -s work
-fi
+# if [[ -z "$TMUX" ]]; then
+#	tmux new -A -s work
+# fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
